@@ -15,8 +15,10 @@ th, td{
 }
 tr:hover{background-color: #E0F2F7}
 body{ 
+    background-color: #9DC6E7;
+}
+body{
     font-family: "Georgia", serif;
     font-weight: bolder;
-    color: #ffffff;
-    background-repeat: repeat-y
+    color: #241616;
 }    
