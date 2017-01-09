@@ -12,10 +12,16 @@
      </ul>
 	  <body>
     <h1>This is my Portfolio Page!</h1>
+    <h2>This is my interactive fiction <a>href= "https://repl.it/FBkB/0"</a></h2>
     <img src="images/sardines.jpg" height="250">
     <br>
     <a target="_blank" href="https://scratch.mit.edu/projects/128379896/">
       <img src="images/scratchlogo.png" height="100">
     </a>
+    <h3>The purpose of our game, Pink Guy’s Pizza Quest, is to solve multiple mazes. At the end of each maze, a pizza is collected which increases the player’s score by one. When the player reaches a high enough score, the game ends. 
+We used the incremental iterative development process by designing, implementing, and testing after each iteration. So after we added the first “enemy” sprite, Fake Frank, we tested that level and were able to quickly identify the errors with that level because each change made was fairly small. For the main sprite, Pink Guy, not much debugging was necessary because between levels, the only thing that changed about him was his starting location. For each iteration, the maze got a little bit harder and there were more turns that the player had to make. Also, we implemented two new sprites that would try to prevent the main sprite from reaching the pizza. The sprites, Fake Frank and Salamander Man, were set at different speeds so that, combined with the increasingly difficult maps, the player had to be more careful in completing the level.
+One difficulty we had with the game was a specific sprite kept speeding upon each successive level. This was due to our script originally looping to increase x - axis speed rather than keep it consistent. This issue was resolved when we switched to using the glide function to make the sprite move around the level. We had to test it various times to keep it from speeding up again. Another problem occurred were we couldn’t understand why a sprite kept moving in a diagonal direction rather than left and right. The sprite was back and forth off the walls of the level which it did but when you progressed it bounce wildly over the level making it too hard for anyone to finish. Inspecting our code we found that we could set the direction the sprite would start when the level began. Because of this, he would bounce off the walls in the way he originally intended to. 
+
+</h3>
 	  </body>
 	</html>
